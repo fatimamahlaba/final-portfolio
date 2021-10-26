@@ -1,5 +1,7 @@
-*
-
+* {
+  margin: 0;
+  padding: 0;
+}
 
 .navbar text {
   justify-content: end;
@@ -23,22 +25,38 @@ html {
   border-bottom: 2px solid white;
   padding: 0px;
 }
-.one{
-    background: linear-gradient(
-        0deg,
-        rgba(3, 3, 3, 0.7),
-        rgba(151, 149, 149, 0.7)
-      ),
-      url(/backgroundimage.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
-  /* second section */
-img{
-    height: 100%;
-    width: 100%;
-    border-style: none;
-    vertical-align: top;
-    max-width: 100%;
+.one {
+  background: linear-gradient(
+      0deg,
+      rgba(3, 3, 3, 0.7),
+      rgba(151, 149, 149, 0.7)
+    ),
+    url(/backgroundimage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+/* second section */
+img {
+  height: 100%;
+  width: 100%;
+  border-style: none;
+  vertical-align: top;
+  max-width: 100%;
+}
+.progress {
+  margin: 15px;
+  border-radius: 10px;
+}
+/*  start of work section */
+.work {
+  background-color: rgb(194, 191, 191);
+}
+.header {
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+.navi-bar {
+  background-color: rgba(0, 0, 0, 0.3);
 }

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <link rel="stylesheet" href="/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js">
     <link rel="stylesheet" href="stylefinal.css" />
     <title>Document</title>
@@ -32,7 +33,7 @@
           <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#testimonials">Testimonials</a>
+          <a class="nav-link" href="#testimonial">Testimonials</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#contact">Contact</a>
@@ -42,11 +43,13 @@
   </div>
 </nav>
     <div class="landing"> 
+      
+      
     </div>
 </section>
-<!-- end of section 1 -->
+<!-- end of landning section -->
 
-<!-- start of section 2 -->
+<!-- start of about section -->
 <section id="about" class="about padding-top-90 padding-bottom-90" >
     <div class="container">
         <div class="row">
@@ -65,26 +68,29 @@
               <div class="progress">
                 <div class="progress-bar bg-dark" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <h5>Design</h5>
+              <h5>Bootstrap</h5>
               <div class="progress">
                 <div class="progress-bar bg-dark" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
             </div><br><br>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
           <button class="btn btn-dark me-md-2" type="button">Download CV</button>
-          <button type="button" class="btn btn-outline-dark">Contact ME</button>
+
+          <button type="button" class="btn btn-outline-dark" >Contact ME</button>
+          <a href="#contact"></a>
         </div>
     </div>
     </div>
 </section>
 
-<!-- end of second section -->
+<!-- end of about section -->
 
-<!-- start of third section -->
+<!-- start of work section -->
 <section id="work" class="work">
+
   <div class="container" data-aos="fade-up">
 
     <div class="section-title">
-      <h2>Work and Education</h2>
+      <h3>Work and Education</h3>
     </div>
 
     <div class="row">
@@ -141,16 +147,17 @@
       <p>Director</p>
     </div>
   </div>
-
-
+  </div>
 </section>
-<!-- End Resume Section -->
+ <!-- end of work section  -->
 
-</section>
- <!-- end of work  -->
+<!-- start of  portfolio section-->
 
-<!-- start of  portfolio-->
 <section id="portfolio">
+  <div class="container">
+  <div class="section-title">
+    <h3>Portfolio</h3>
+  </div>
   <div class="card-group">
     <div class="card">
       <img src="/shot1.png" class="card-img-top" alt="shot1">
@@ -176,34 +183,38 @@
         <a href="https://github.com/fatimamahlaba/" target="_blank"><img src="https://img.icons8.com/ios-glyphs/30/000000/github.png"/></a>
       </div>
     </div>
-  </div> 
+  </div>
+  </div><br><br><br> 
 </section>
 <!-- end of portfolio -->
 
+
 <!-- start of testimonials -->
-<section>
 
-  
-
-
-</section>
-<!-- end of testimonials -->
-<section>
+<section class="testimonials" id="testimonial">
+  <br><br>
+  <div class="container">
+<div class="row">
+  <h3>Testimonials</h3>
+</div>
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" id="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" id="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" id="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="/Lilitha.jpeg" class="d-block w-100" alt="...">
+        <img src="/Lilitha.jpeg" class="d-block" alt="..."><br><br>
+        <h2>hehnnoinionknionghhjghvhjb</h2>
       </div>
       <div class="carousel-item">
-        <img src="/Siyabonga.jpeg" class="d-block w-100" alt="...">
+        <img src="/Siyabonga.jpeg" class="d-block" alt="..."><br><br>
+        <h2></h2>
       </div>
       <div class="carousel-item">
-        <img src="/Fatima.jpeg" class="d-block w-100" alt="...">
+        <img src="/Godwin.jpeg" class="d-block" alt="..."><br><br>
+        <h2>I am delighted to be called upon as a reference for Fatima. She always behaves professionally. Godwin – Head of Curriculum and Learning.</h2>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -215,11 +226,46 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  </div>
+
 </section>
 <!-- end of testimonial -->
 
-<script src="./bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+<!-- start of form -->
 
+<section class="form" id="contact" >
+  <div class="container">
+  <div class="container-form">
+  <div class="form-back">
+    <div class="section-title">
+      <h3>Contact Me</h3>
+    </div>
+<div class="row g-3">
+  <div class="col">
+    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+  </div>
+  <div class="col">
+    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"><br><br>
+  </div>
+</div>
+<div class="mb-3">
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email"><br>
+</div>
+<div class="mb-3">
+  <textarea class="form-control"  placeholder="Message" id="exampleFormControlTextarea1" rows="3"></textarea><br><br>
+</div>
+</div>
+<button type="button" class="btn btn-outline-dark">Dark</button>
+  </div>
+
+</div>
+</section>
+<!-- end of form -->
+
+<script src="./bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
+<footer>
+  <p>© 2020 Fatima | All rights reserved.</p>
+</footer>
 </html>
-]
+

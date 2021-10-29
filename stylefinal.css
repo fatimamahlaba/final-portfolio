@@ -144,13 +144,30 @@ h2 {
 
 /* start of form */
 .form{
-  background-color: rgb(17, 17, 17);
-}
-.container-form{
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  width: 60%; 
-  padding-left: 10%; 
+  background-color: #cac5c5;
+  width: 100%; 
+  padding-left: 10%;
   padding-right: 10%;
 }
+.sec2{
+  padding: 100px;
+}
+.content-form{
+  padding: 50px;
+  border-radius: 50px;
+} 
+.submitbutton{
+  transition-duration: 0.4s;
+}
+.submitbutton:hover{
+  background-color: rgb(136, 134, 134)
+}
+
 /* end of form */
+
+/* footer */
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+/* footer */

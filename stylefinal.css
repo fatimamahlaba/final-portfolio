@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.navbar-toggler-icon {
+  background-image: url(./Final\ portfolio\ pictures/list.png);
+}
+
 .navbar-collapse {
   justify-content: end;
 }
@@ -31,7 +35,7 @@ html {
       rgba(3, 3, 3, 0.7),
       rgba(151, 149, 149, 0.7)
     ),
-    url(/backgroundimage.jpg);
+    url(./Final\ portfolio\ pictures/backgroundimage.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -96,7 +100,7 @@ html {
 /* end of timeline */
 
 /* start of carousel */
-#button{
+#button {
   border-radius: 50%;
   width: 10px;
   height: 10px;
@@ -143,27 +147,33 @@ h2 {
 /* end of carousel */
 
 /* start of form */
-.form{
+.form {
   background-color: #cac5c5;
-  width: 100%; 
+  width: 100%;
   padding-left: 10%;
   padding-right: 10%;
 }
 
-.sec2{
+.sec2 {
   padding: 100px;
 }
-.content-form{
+.content-form {
   padding: 50px;
   border-radius: 50px;
-} 
-.submitbutton{
+}
+.submitbutton {
   transition-duration: 0.4s;
+  border: none;
 }
-.submitbutton:hover{
-  background-color: rgb(136, 134, 134)
+.submitbutton:hover {
+  background-color: rgb(136, 134, 134);
 }
-
+p {
+  color: #050505;
+}
+.form-text {
+  border: none;
+}
 /* end of form */
 
 /* footer */

@@ -5,6 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="favicon-32x32.png">
+
   <link rel="stylesheet" href="/bootstrap-5.1.3-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js">
@@ -12,7 +14,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="stylefinal.css" />
-  <title>Document</title>
+  <title>Fatima Mahlaba Portfolio</title>
 </head>
 
 <body>
@@ -33,7 +35,7 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#work">Work and Education</a>
+              <a class="nav-link" href="#work">Resume</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -48,64 +50,75 @@
         </div>
       </div>
     </nav>
-    <div class="landing">
 
+    <div class="wrapper">
+      <div class="const-text">I'm a Web</div>
+      <ul class="moving-text">
+        <li>Programmer</li>
+      </ul>
+    </div> 
+    <div class= "arrow">
+   <a href="#about"><img src="https://img.icons8.com/ios-glyphs/30/000000/double-down--v1.png"/></a>
     </div>
-    
   </section>
   <!-- end of landning section -->
 
   <!-- start of about section -->
   <section id="about" class="about padding-top-90 padding-bottom-90">
     <div class="container">
+      <div class="section-title">
+        <h1>About Me</h1>
+      </div>
+
       <div class="row">
         <div class="col-md-5 sm-12">
-          <img src="./Final portfolio pictures/Fatima.jpeg" id="img" alt="me">
+          <img src="./Final portfolio pictures/Fatima2.jpeg" id="img" alt="me">
         </div>
         <div class="col-md-7 sm-12padding-left-35">
-          <h1>Hi There! I am Fatima Mahlaba</h1>
-          <p>I am a 25 year old web developer from Cape Town, South Africa.I am a passionate, hard-working and happy
+          <h3>Hi There! I am Fatima Mahlaba</h3><br>
+          <p>I am a 25 year old Web Developer from Cape Town, South Africa.I am a passionate, hard-working and happy
             individual. As an extrovert, I make friends very easily because I always feel comfortable around new people
             as well as new environments. I am a bubbly person who is always available to assist anyone who might need my
             help. I am an explorer of life. Furthermore, I love travelling and being adventurous, and I love learning
-            new things.</p>
-          <p> The interest in coding was sparked by noticing that there had to be something happening on the other side
-            of the screen that very few people knew about. I wanted to be part of the people who would learn about it
-            and develop something that will end up being able to assist others like me.</p>
+            new things.</p><br>
           <h5>HTML</h5>
           <div class="progress">
-            <div class="progress-bar bg-dark" role="progressbar" style="width: 100%" aria-valuenow="25"
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 90%" aria-valuenow="25"
               aria-valuemin="0" aria-valuemax="100"></div>
           </div>
           <h5>CSS</h5>
           <div class="progress">
-            <div class="progress-bar bg-dark" role="progressbar" style="width: 100%" aria-valuenow="50"
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 85%" aria-valuenow="50"
+              aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <h5>JAVASCRIPT</h5>
+          <div class="progress">
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 60%" aria-valuenow="50"
               aria-valuemin="0" aria-valuemax="100"></div>
           </div>
           <h5>Bootstrap</h5>
           <div class="progress">
-            <div class="progress-bar bg-dark" role="progressbar" style="width: 100%" aria-valuenow="75"
+            <div class="progress-bar bg-dark" role="progressbar" style="width: 80%" aria-valuenow="75"
               aria-valuemin="0" aria-valuemax="100"></div>
-          </div><br><br>
+          </div><br>
           <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-            <button class="btn btn-dark me-md-2" type="button">Download CV</button>
-
-            <button type="button" class="btn btn-outline-dark">Contact ME</button>
-            <a href="#contact"></a>
+            <a  class="btn btn-dark" href="#contact">Download Resume</a>
+         <a  class="btn btn-outline-dark" href="#contact">Contact Me</a>
           </div>
         </div>
       </div>
+      <br>
   </section>
 
   <!-- end of about section -->
 
   <!-- start of work section -->
-  <section id="work" class="work">
+  <section id="work" class="work" style="padding-bottom: 50px;">
 
     <div class="container">
 
       <div class="section-title">
-        <h3>Work and Education</h3>
+        <h1>Resume</h1>
       </div>
 
       <div class="row">
@@ -136,7 +149,7 @@
           </div>
         </div>
 
-        <div class="col-lg-6" data-aos="fade-right">
+        <div class="col-lg-6" data-aos="fade-left">
           <h3 class="work-title">Work</h3>
           <div class="work-item">
             <h4>Afriquezeen</h4>
@@ -171,11 +184,11 @@
   <section id="portfolio">
     <div class="container">
       <div class="section-title">
-        <h3>Portfolio</h3>
+        <h1>Portfolio</h1>
       </div>
       <div class="card-group">
         <div class="card">
-          <img src="./Final portfolio pictures/shot1.png" class="card-img-top" alt="shot1">
+          <img src="./Final portfolio pictures/shot1.png" class="card" alt="shot1">
           <div class="card-body">
             <h5 class="card-title">Animation</h5>
             <p class="card-text">This card has a picture of my first animation.</p>
@@ -184,7 +197,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="./Final portfolio pictures/shot2.png" class="card-img-top" alt="shot2">
+          <img src="./Final portfolio pictures/shot2.png" class="card" alt="shot2">
           <div class="card-body">
             <h5 class="card-title">Cards</h5>
             <p class="card-text">This card is a testimonial from my portfolio.</p>
@@ -193,7 +206,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="./Final portfolio pictures/shot3.png" class="card-img-top" alt="shot3">
+          <img src="./Final portfolio pictures/shot3.png" class="card" alt="shot3">
           <div class="card-body">
             <h5 class="card-title">Timeline</h5>
             <p class="card-text">This card shows the timeline i made in my portfolio.</p>
@@ -213,7 +226,7 @@
     <br><br>
     <div class="container">
       <div class="row">
-        <h3>Testimonials</h3>
+        <h1>Testimonials</h1>
       </div>
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -233,25 +246,29 @@
             <img src="./Final portfolio pictures/Lilitha.jpeg" class="d-block" alt="..."><br><br>
             <h2>I have worked with Fatima on a few projects. She is a good team player, target driven and not afraid of
               challenges. She is very professional in and of duty. She is always willing to assit where she is needed,
-              also she's capable of working solo on projects.Lilitha Mantini- Classmate</h2>
+              also she's capable of working solo on projects.</h2>
+              <h2>Lilitha Mantini- Collegue</h2>
           </div>
           <div class="carousel-item">
             <img src="./Final portfolio pictures/Siyabonga.jpeg" class="d-block" alt="..."><br><br>
             <h2>Fatima is a bubbly soul, all throughout our time on the Academy she has maintained an eagerness to learn
-              and good work ethic. Very committed individual. Siyabonga Mkhosana- Classmate.</h2>
+              and good work ethic. She is a very committed individual.</h2>
+              <h2>Siyabonga Mkhosana- Collegue.</h2>
           </div>
           <div class="carousel-item">
             <img src="./Final portfolio pictures/2021-team-jason-wandrag.jpg" class="d-block" alt="..."><br><br>
-            <h2>I learn something new about Fatima every day.I enjoy when she gives her answers in class.She works very diligently when she is focused.I always enjoy seeing Fatima grow as a student in my class, and I hope she continues to study hard.Jason Wandrag-Lecturer</h2>
+            <h2>I learn something new about Fatima every day. I enjoy when she gives her answers in class. She works very diligently when she is focused. I always enjoy seeing Fatima grow as a student in my class, and I hope she continues to study hard.</h2>
+            <h2>Jason Wandrag-Lecturer.</h2>
           </div>
           <div class="carousel-item">
             <img src="./Final portfolio pictures/Seth.jpg" class="d-block" alt="..."><br><br>
-            <h2>Fatima is one of the most caring people I know. She's dedicated and hard working. She's always open to learn new things.Seth Kleynhauns - Classmate.</h2>
+            <h2>Fatima is one of the most caring people I know. She's dedicated and hard working. She's always open to learn new things.</h2>
+            <h2> Seth Kleynhauns - Collegue.</h2>
           </div>
           <div class="carousel-item">
             <img src="./Final portfolio pictures/Godwin.jpeg" class="d-block" alt="..."><br><br>
-            <h2>I am delighted to be called upon as a reference for Fatima. She always behaves professionally. Godwin –
-              Head of Curriculum and Learning.</h2>
+            <h2>I am delighted to be called upon as a reference for Fatima. She always behaves professionally.</h2> 
+              <h2>Godwin – Head of Curriculum and Learning.</h2>
           </div><br><br><br>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -274,53 +291,56 @@
   <section class="form" id="contact">
     <div class="container">
       <div class="section-title text-center">
-        <h3>Contact Me</h3>
+        <h1>Contact Me</h1>
       </div>
-      <div class="row">
-        <div class="col-lg-7 col-md-5 sm-12">
-          <div class="contact-form">
-            <form id="Form" action="https://formspree.io/f/xpzknqyr" method="POST">
-              <div class="row">
-                <div class="col-lg-6">
-                  <input placeholder="Full Name" name="name" type="text" class="form-control">
-                </div><br><br>
-                <div class="col-lg-6">
-                  <input placeholder="E-mail" name="email" type="email" class="form-control">
+      <div class= "formation">
+        <div class="row">
+          <div class="col-lg-7 col-md-5 sm-12">
+            <div class="contact-form">
+              <form id="Form" action="https://formspree.io/f/xpzknqyr" method="POST">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <input placeholder="Full Name" name="name" type="text" class="form-control">
+                  </div><br><br>
+                  <div class="col-lg-6">
+                    <input placeholder="E-mail" name="email" type="email" class="form-control">
+                  </div>
                 </div>
-              </div>
-
-
-              <div class="row">
-                <div class="col-lg-12">
-                  <textarea placeholder="Message" name="message" class="form-text" rows="4" cols="50"></textarea>
+  
+  
+                <div class="row">
+                  <div class="col-lg-12">
+                    <textarea placeholder="Message" name="message" class="form-text" rows="4" cols="50"></textarea>
+                  </div>
+                </div><br>
+  
+                <div class="d-grid">
+                  <input class="submitbutton" type="submit" value="Send">
                 </div>
-              </div><br>
-
-              <div class="d-grid">
-                <input class="submitbutton" type="submit" value="Send">
-              </div>
-
-
+  
+  
+            </div>
+          </div>
+  
+          <div class="col-lg-5 col-md-7 sm-12">
+            <div class="content">
+              <h4>Call Me</h4>
+              <p>(+27)72 382 7244</p>
+            </div>
+  
+            <h4>Email Me</h4>
+            <p><a href="fatimamahlaba@gmail.com">fatimamahlaba@gmail.com</a></p>
           </div>
         </div>
-
-        <div class="col-lg-5 col-md-7 sm-12">
-          <div class="content">
-            <h4>Call Me</h4>
-            <p>(+27)72 382 7244</p>
-          </div>
-
-          <h4>Email Me</h4>
-          <p><a href="fatimamahlaba@gmail.com">fatimamahlaba@gmail.com</a></p>
-        </div>
       </div>
-    </div>
+      </div>
+      
     <footer>
-      <a href="https://github.com/fatimamahlaba/" target="_blank"><img
+      <a   href="https://github.com/fatimamahlaba/" target="_blank"><img class="butt"
           src="https://img.icons8.com/ios-glyphs/30/000000/github.png" /></a>
-      <a href="https://www.linkedin.com/in/fatima-mahlaba-197a70224" target="_blank"><img
+      <a class="link " href="https://www.linkedin.com/in/fatima-mahlaba-197a70224" target="_blank"><img class="butt"
           src="https://img.icons8.com/ios-glyphs/50/000000/linkedin.png" />
-        <p>© 2020 Fatima | All rights reserved.</p>
+        <p>© 2021 Fatima | All rights reserved.</p>
     </footer>
   </section>
   <!--End Contact Section-->
